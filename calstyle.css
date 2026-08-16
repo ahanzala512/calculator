@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+    color:rgb(149, 236, 255);
+    
+}
+
+
+.display{
+    padding:20px;
+    margin:10px;
+    width:85%;
+    height: 35px;
+    border:1px dotted rgb(87, 85, 85);
+    border-radius: 10px;
+    box-shadow: inset -1px -1px 10px rgb(149,236,255);
+    text-align: right;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.cal-body{
+    justify-self: center;
+    position: relative;
+    top:70px;
+    border:2px solid black;
+    border-radius:10px;
+    padding:10px;
+    box-shadow:3px 3px 3px rgb(159, 157, 157),inset 3px 3px 3px whitesmoke;
+    max-width: fit-content;
+}
+
+button{
+    padding:20px;
+    margin:15px;
+    border-radius:10px;
+    width:70px;
+}
+
+
+/* button:hover{
+    background-color: rgb(70, 68, 68);
+} */
