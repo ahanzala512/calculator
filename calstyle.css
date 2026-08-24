@@ -1,46 +1,40 @@
 *{
     background-color: black;
-    color:rgb(149, 236, 255);
-    
+    color:aqua;
+    font-size:clamp(1rem, 2vw, 1.5rem);
 }
-
-
-.display{
-    padding:20px;
-    margin:10px;
-    width:85%;
-    height: 35px;
-    border:1px dotted rgb(87, 85, 85);
-    border-radius: 10px;
-    box-shadow: inset -1px -1px 10px rgb(149,236,255);
-    text-align: right;
-    
-}
-
-input:focus{
-    outline: none;
-}
-
 
 .cal-body{
-    justify-self: center;
-    position: relative;
-    top:70px;
-    border:2px solid black;
+    box-shadow:0 0 10px white;
+    max-width:90vw;
+    padding:1rem;
+    margin:3% 5%;
+    justify-self:center;
+    display:flex;
+    flex-direction:column;
     border-radius:10px;
-    padding:10px;
-    box-shadow:3px 3px 3px rgb(159, 157, 157),inset 3px 3px 3px whitesmoke;
-    max-width: fit-content;
+    justify-content: center;
+}
+
+.display{
+    width:90%;
+    min-height: 3rem;
+    border-radius:5px;
+    text-align:right;
+    padding:clamp(0.5rem, 1.4vw, 1rem);
+    background-color:rgb(48, 46, 46);
 }
 
 button{
-    padding:20px;
-    margin:15px;
+    box-shadow:0 0 3px white;
+    margin:clamp(0.5rem, 1vw, 1rem);
+    
+    width:clamp(2rem, 5vw, 4rem);
     border-radius:10px;
-    width:70px;
+    height:clamp(2rem, 4vw, 3rem);
 }
 
-
-/* button:hover{
-    background-color: rgb(70, 68, 68);
-} */
+.button-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
